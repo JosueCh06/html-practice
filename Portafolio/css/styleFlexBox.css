@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+h1{
+	font-family: 'Supermercado One', cursive;
+	text-align: center;
+	color: #fff;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.padre{
+	background: #8FAFD0;
+	width: 90%;
+	height: 60%;
+	padding: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.hijo{
+	background: #1E3A56;
+	width: 95%;
+	height: 10%;
+
+}
+
+img{
+	width: 275px;
+	height: 155px;
+	margin: 25px;
+	opacity: 1;
+	/*box-shadow: 60px -16px teal;*/
+	box-shadow: 6px 3px 3px black;
+	/*box-shadow: 2px 2px 2px 1px*/ rgba(0, 0, 0, 0.2);
+	/*box-shadow: 3px 3px red, -1em 0 0.4em olive;*/
+	/*box-shadow: inherit;*/
+	/*box-shadow: initial;*/
+	/*box-shadow: unset;*/
+	border-radius: 5px;
+}
+
+img:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
